@@ -9,7 +9,7 @@ import java.sql.SQLException;
 public class OracleDbConfiguration {
     private static final String URL = "jdbc:oracle:thin:@oracle.fiap.com.br:1521:ORCL";
     private static final String USER = "RM554227";
-    private static final String PASSWORD = "081204";
+    private static final String PASSWORD = "";
 
 
     public Connection getConnection() {
